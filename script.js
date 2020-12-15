@@ -178,16 +178,16 @@ document.querySelector('#form').addEventListener('submit',function(event){
         
             const name = document.createElement('td')
             const name_1 = document.createElement('san')
-            name_1.setAttribute("style", "color: black; padding: 20px;")
+            name_1.setAttribute("style", "color: white; padding: 20px;")
             name_1.innerHTML = sub
             name.append(name_1)
         
             const code = document.createElement('td')
-            code.setAttribute("style", "color: black; padding: 10px;")
+            code.setAttribute("style", "color: white; padding: 10px;")
             code.innerHTML = code_sub
                 
             const grade_s = document.createElement('td')
-            grade_s.setAttribute("style", "color: black; padding: 30px;")
+            grade_s.setAttribute("style", "color: white; padding: 30px;")
             grade_s.innerHTML = gpa_in
 
             const Dbut = document.createElement('td')
@@ -224,16 +224,16 @@ document.querySelector('#form').addEventListener('submit',function(event){
         
             const name_n = document.createElement('td')
             const name_2 = document.createElement('san')
-            name_2.setAttribute("style", "color: black; padding: 20px;")
+            name_2.setAttribute("style", "color: white; padding: 20px;")
             name_2.innerHTML = sub
             name_n.append(name_2)
         
             const code_n = document.createElement('td') 
-            code_n.setAttribute("style", "color: black; padding: 10px;")
+            code_n.setAttribute("style", "color: white; padding: 10px;")
             code_n.innerHTML = code_sub
                 
             const grade_n = document.createElement('td')
-            grade_n.setAttribute("style", "color: black; padding: 30px;")
+            grade_n.setAttribute("style", "color: white; padding: 30px;")
             grade_n.innerHTML = gpa_in
         
             list_n.append(name_n)
